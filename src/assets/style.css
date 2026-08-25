@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-avenir: 'Avenir', 'Helvetica', 'Arial', 'sans-serif';
+  --font-sans: 'Avenir', 'Helvetica', 'Arial', 'sans-serif';
+  --animate-fade: yellowFade 3s ease-in-out;
+
+  @keyframes yellowFade {
+    from {
+      background-color: yellow;
+    }
+    to {
+      background-color: transparent;
+    }
+  }
+}
+
+h1 {
+  @apply text-4xl mb-8;
+}
